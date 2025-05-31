@@ -88,9 +88,10 @@
 
 .card-image {
   width: 100px;
-  height: 100px;
-  object-fit: cover;
-  mix-blend-mode: screen;
+  height: auto;
+  object-fit: contain;
+  scale: 0.75; /* Makes the image appear smaller */
+  transform-origin: top left; /* Keeps the image aligned to top-left */
 }
 
 
